@@ -1,0 +1,75 @@
+
+.container{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.likebox{
+
+    border: 1px solid black;
+    margin: 60px;
+    justify-content: space-between;
+    width: 280px;}
+
+
+
+.likecard{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.btnlike{
+    background-color: #ffd966;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+} 
+
+span{
+    padding-right: 30px;
+}
+
+.likes{
+    margin-top: 25px;
+    padding-right: 6px;
+}
+
+.text{
+    padding-left: 17px;
+}
+
+#left-side{width: 270px;
+    height: 289px;
+    border: 1px solid black;
+    margin-top: 60px;
+
+}
+
+#top-nav{
+    background-color: black;
+    color: white;
+    height: 41px;
+}
+
+
+#main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+h1{padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+img{
+    width: 200px;
+    padding: 38px;
+}
+
+.add,.username{
+    text-align: center;
+}
+#feed{
+    text-align: center;
+}

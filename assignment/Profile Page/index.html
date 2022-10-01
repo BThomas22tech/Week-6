@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a class="profile" href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <ul>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="profile">
+                <div class="profile-header"></div>
+                <img src="images/brandon 2020.jpg" alt="brandon" class="profilepic" alt="usericon">
+                <h2 class="name" id="profilename">Brandon Thomas</h2>
+
+                <img src="icons/map-marker.png" alt="Mapmarker" class="marker" alt="mapmarker"> Seattle
+                <p class="telltell"> Developer| Engineer | Problem Solver!|
+                    <br>Master of Shadows and the Internet!
+                </p>
+                <img src="icons/gear.png" alt="gear" class="gear" alt="gear">
+                <a class="edit" href="#" onclick="editUser()">edit profile</a>
+            </div>
+            <div class="row"> </div>
+            <div class="row"></div>
+
+            <div class="education">
+                <div class="education-header">Education</div>
+                <h2 class="edtext">Coding Dojo - Full Stack Boot Camp</h2>
+                <h3 class="edtextyear"> Dec 2019 - Mar 2020 </h3>
+                <p class="edtextsub">Triple black belt in Python, MERN, and C#</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="connectionheader">
+                <div class="connectionrequest"><span id="sub" class="gray">2</span> Connection Requests</div>
+                <div class="picholder">
+                    <div class="userpicture" id="userpicture1">
+                        <img src="images/todd-s.jpg" class="pic" id="friendpic1" alt="pic of todd"> Todd E.
+                        <img src="icons/accept-circle.png" onclick="hide(); onclick= lowerNumber();increaseNumber()" class="accept" alt="accept">
+                        <img src="icons/close-circle.png" onclick="hide(); onclick= lowerNumber()" class="close" alt="decline">
+                    </div>
+                    <div class="userpicture" id="userpicture2">
+                        <img src="images/phil-s.jpg" class="pic" id="friendpic2" atl="pic of phil"> Phil K.
+                        <img src="icons/accept-circle.png" onclick="out(); onclick= lowerNumber(); increaseNumber()" class="accept" alt="accept">
+                        <img src="icons/close-circle.png" onclick="out(); onclick= lowerNumber()" class="close" alt="decline">
+                    </div>
+                </div>
+            </div>
+            <div class="friendcontainer">
+                <div class="friendconnections"><span id="increase-count"class="gray">418</span> Your Connections</div>
+                <div class="picholder">
+                    <div class="fpicture">
+                        <img src="images/adrien-s.jpg" class="pic" alt="pic of adrien-s"> Adrien S.
+                        <img src="images/anne-s.jpg" class="pic" alt="pic of anne"> Anne S.
+                        <img src="images/alayne-s.jpg" class="pic" alt="pic of alayne"> Alayne S.
+                        <img src="images/arry-s.jpg" class="pic" alt="pic of arry"> Arry S.
+                    </div>
+
+                </div>
+                <div class="More">
+                    <a href="#" class="ViewMore">View More...</a>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

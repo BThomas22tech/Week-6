@@ -1,0 +1,170 @@
+*{  margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    padding: 20px;
+    width: 900px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.nav-links >*{
+    color: white;
+    padding: 5px;
+    list-style-type: none;
+    margin: 5px;
+    justify-content: space-between;} 
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* .active{
+    font-weight: bold;
+}  */
+
+.btn{
+    background-color:#17a2b8;
+    width: 90px;
+    box-shadow: 3px 3px 3px black;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    list-style:none;
+}
+.profile{
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.topnav{
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.profilepic {
+    width: 113px;
+    box-shadow: 3px 3px 5px 5px whitesmoke;
+    border-radius: 50%;
+    margin-top: -35px;
+    margin-left: 20px;
+}
+
+.marker{
+    width: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 5px;
+
+}
+
+.gear{
+    width: 13px;
+}
+.edit{
+    color: black;
+}
+.name,.marker,.gear,.edit,.telltell{
+    padding-left: 10px;
+}
+/* body{
+    width: 575px;
+}  */
+.container{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    gap: 20px;
+}
+h1{
+    color: white;
+}
+
+.row{
+    display: flex;
+    }
+.left {
+    flex: 2;
+    }
+    
+.right {
+    flex:1;}
+    
+    .profile-header{
+        background-color: #17a2b8;
+        height: 100px;
+    }
+    .education-header{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        
+    }
+    .edtext,.edtextyear,.edtextsub{
+        padding: 10px;
+    }
+.education{
+    border: 1px solid;
+    margin-top: 20px;
+    }
+.connectionrequest{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.friendconnections{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+.friendcontainer{
+    height: 30px;
+}
+.pic{
+    width: 60px;} 
+.accept{
+    width: 30px;
+}
+.close{
+    width:30px
+}
+.picholder{
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding-left: 40px;
+}
+.fpicture{
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ViewMore{
+    color: black;
+    text-decoration: underline;
+}
+.More{
+    margin-top: -12px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.gray{
+    background-color: gray;
+    border-radius: 90px;
+    padding: 5px;
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
